@@ -6,12 +6,13 @@
 int main(void)
 {
 	int n = 50;
+	int i;
 	unsigned long fib1 = 1;
 	unsigned long fib2 = 2;
 	unsigned long next;
 
 	printf("%lu, %lu, ", fib1, fib2);
-	for (int i = 3; i <= n; i++)
+	for (i = 3; i <= n; i++)
 	{
 		next = fib1 + fib2;
 		if (i == n)
