@@ -22,10 +22,6 @@ unsigned int _strspn(char *s, char *accept)
 			break;
 		}
 	}
-		if (accept[n] == '\0')
-		{
-			break;
-		}
 	}
-	return (value);
+	return (0);
 }
