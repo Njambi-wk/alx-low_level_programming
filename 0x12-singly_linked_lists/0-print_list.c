@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <stdio.h>
 /**
  * print_list - prints elements of list_t
  * @h: singly linked list nput
