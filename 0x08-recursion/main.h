@@ -2,6 +2,7 @@
 #define MAIN_HEADER_FILE
 
 int natural_sqrt(int n, int i);
+int actual_primenum(int n, int i);
 int _putchar(char c);
 void _puts_recursion(char *s);
 void _print_rev_recursion(char *s);
